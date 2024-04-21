@@ -10,9 +10,7 @@ body{
 
 header {
     display: flex;
-    justify-content:center;
-    align-items: center;
-
+    flex-direction: row;
     width: 100%;
     padding: 16px 7px;
     background: #00529c;
@@ -20,6 +18,10 @@ header {
 
 
 .header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     text-decoration: none;
 }
 
@@ -27,10 +29,15 @@ header {
 .header-title h1 {
     color: rgb(251, 255, 0);
     font-size: 2rem;
+    margin-left: 310px;
 }
 
+.header-title img{
+    width: 10%;
+    padding-left: 10%;
+}
 
-.copa_58 {
+.sections {
     width: 100vw;
     height: 592px;
     display: flex;
@@ -53,7 +60,7 @@ header {
     border-radius: 22px;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 25%);
 }
-.logo_cbf {
+.images {
     background-color: #FFF743;
     border-top-right-radius: 35px;
     border-bottom-left-radius: 35px;
