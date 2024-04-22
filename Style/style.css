@@ -1,27 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #3673f7;
+    background: rgb(2,16,139);
+    background: linear-gradient(123deg, rgba(2,16,139,1) 0%, rgba(9,159,29,1) 36%, rgba(209,227,56,1) 79%, rgba(255,255,255,1) 100%);
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-
-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%; /*como estava*/
-    padding: 16px 7px;
-    background: #00529c;
-   /* width: 1500;*/     /*alteração a ser realizada */
+header{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
-
 
 .header-title {
     display: flex;
+    background: rgb(8,6,115);
+    background: linear-gradient(167deg, rgba(8,6,115,0.865983893557423) 0%, rgba(9,159,29,0.6867121848739496) 70%);
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     text-decoration: none;
 }
@@ -30,30 +28,31 @@ header {
 .header-title h1 {
     color: rgb(251, 255, 0);
     font-size: 2rem;
-    margin-left: 310px; /* como estava*/
-    /*margin-left: 150px*/      /*alteração a ser realizada*/
+    margin-left: 310px;
 }
 
 .header-title img{
-    width: 10%;
-    padding-left: 10%;
+    width: 15%;
+    padding-left: 5%;
+}
+
+.images {
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    width: 372px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 25%);
 }
 
 .sections {
-    width: 100vw; /*como estava*/
-    /*width: 1515px;*/      /*alteração a ser realizada */
-    height: 592px;
+    width: auto; 
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 5%;
+}
 
-    
-}
-.imagem {
-    padding-left: 50px;
-    width: 30%;
-}
 .texto {
     margin-right: 40px;
     padding: 20px;
@@ -61,13 +60,6 @@ header {
     font-size: 18px;
     background-color: white ;
     border-radius: 22px;
-    box-shadow: 6px 6px 4px rgba(0, 0, 0, 25%);
-}
-.images {
-    background-color: #FFF743;
-    border-top-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    width: 372px;
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 25%);
 }
 
@@ -79,4 +71,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.texto h3{
+    font-weight: bold;
 }
