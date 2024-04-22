@@ -18,7 +18,7 @@ Contribuições são bem-vindas! Basta fazer um fork do repositório, realizar a
 - HTML5
 - CSS3
 
-### Autor
+### Autores
 
 Desenvolvido por Guilherme Alves , Guilherme Felipe , João Vitor e Rafael Bezerra como parte de um projeto acadêmico na faculdade FIAP.
 
