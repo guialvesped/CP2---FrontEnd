@@ -11,9 +11,10 @@ body{
 header {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100%; /*como estava*/
     padding: 16px 7px;
     background: #00529c;
+   /* width: 1500;*/     /*alteração a ser realizada */
 }
 
 
@@ -29,7 +30,8 @@ header {
 .header-title h1 {
     color: rgb(251, 255, 0);
     font-size: 2rem;
-    margin-left: 310px;
+    margin-left: 310px; /* como estava*/
+    /*margin-left: 150px*/      /*alteração a ser realizada*/
 }
 
 .header-title img{
@@ -38,7 +40,8 @@ header {
 }
 
 .sections {
-    width: 100vw;
+    width: 100vw; /*como estava*/
+    /*width: 1515px;*/      /*alteração a ser realizada */
     height: 592px;
     display: flex;
     flex-direction: row;
