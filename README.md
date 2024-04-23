@@ -20,6 +20,6 @@ Contribuições são bem-vindas! Basta fazer um fork do repositório, realizar a
 
 ### Autores
 
-Desenvolvido por Guilherme Alves , Guilherme Felipe , João Vitor e Rafael Bezerra como parte de um projeto acadêmico na faculdade FIAP.
+Desenvolvido por Guilherme Alves , Guilherme Felipe , João Vitor Nascimento RM-554694 e Rafael Bezerra como parte de um projeto acadêmico na faculdade FIAP.
 
 ---
